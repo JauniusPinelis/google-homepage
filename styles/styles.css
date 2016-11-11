@@ -1,0 +1,21 @@
+
+
+li {
+	float: right;
+	padding: 0 0 0 20px;
+}
+
+#container {
+	margin:10 0 0 0 auto;
+	text-align: center;
+}
+
+#logo {
+	margin: auto;
+	width: 35em;
+}
+
+#topbar{
+	margin: 25px 40 px 0 0;
+	height: 100px;
+}

@@ -110,46 +110,40 @@ input[type=submit]:hover {
 	color: #222;
 }
 
-footer{
-	position: absolute
-	border-top: 1px solid #e4e4e4;
-	width: 100%;
-	bottom: 0;
-	margin 0 auto;
-	background: rgb(242, 242, 242);
-	padding-bottom: 15px;
-	padding-top: 14px;
-	padding: 0;
-	height: 40px;
-	min-width: 980px;
+#footer{
+	position:absolute;
+	width:99.99%;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: #f2f2f2;
+	border-top: 1px #e4e4e4 solid;
+	float:right;
+	font-size: small;
 }
 
-footer ul {
-	padding: 7px;
-	margin: 0;
+.bottomnav{
+	list-style-type:none;
 }
 
-footer a {
-	color: #555;
-	padding: 0;
-}
-
-#footer-left {
+#bottomleft{
 	float: left;
-	margin: 0 0 0 17px;
-	padding: 0;
 }
 
-#footer-left a {
-	margin-right: 17px;
-}
-
-#footer-right {
+#bottomright{
 	float: right;
-	margin: 0 17px 0 0;
-	padding: 0;
+	margin-right: 23px;
 }
 
-#footer-right a {
-	margin-left: 17px;
+.bottomnav li{
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	padding-right: 27px;
+	color: #828282;
+	padding-bottom:12px;
+}
+
+.bottomnav li:hover{
+	text-decoration:underline;
 }

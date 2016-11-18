@@ -24,7 +24,7 @@ li {
 }
 
 li a {
-	color: #000;
+	color: #666;
 	text-decoration: none;
 	vertical-align: middle;
 	-webkit-font-smoothing: antialiased !important;
@@ -35,7 +35,7 @@ li a:hover {
 }
 
 header {
-	padding: 0 16px;
+	padding: 0 10px;
 }
 
 header nav {
@@ -125,7 +125,7 @@ input[type=submit]:hover {
 .bottomnav{
 	list-style-type:none;
 }
-
+	
 #bottomleft{
 	float: left;
 }
@@ -135,13 +135,16 @@ input[type=submit]:hover {
 	margin-right: 23px;
 }
 
-.bottomnav li{
+.bottomnav li {
 	display: inline-block;
 	text-align: center;
 	vertical-align: middle;
 	padding-right: 27px;
-	color: #828282;
 	padding-bottom:12px;
+}
+
+.bottom li a{
+	color: #666;
 }
 
 .bottomnav li:hover{
